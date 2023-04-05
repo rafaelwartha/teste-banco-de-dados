@@ -1,6 +1,5 @@
 Crie uma DB com o nome "db_lista" depois crie uma TABLE com o seguinte código: 
 
-
 CREATE TABLE usuarios (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(30) NOT NULL,
@@ -8,7 +7,6 @@ CREATE TABLE usuarios (
   telefone VARCHAR(15) NOT NULL,
   email VARCHAR(50) NOT NULL
 );
-
 
 
 
@@ -20,6 +18,15 @@ INSERT INTO usuarios (nome, idade, telefone, email) VALUES
 ('Lucas', 22, '333333333', 'lucas@email.com'),
 ('Julia', 29, '444444444', 'julia@email.com'),
 ('Maria', 40, '555555555', 'maria@email.com');
+
+
+
+Lembre-se de editar o código da conexão do banco de dados com seu código ex:
+
+$servername = "localhost";
+$username = "root"; (esse e o usuario padrão do XAMPP)
+$password = "";  (a senha padrão e assim mesmo sem senha)   
+$dbname = "db_lista"; (lembre-se de criar o banco de dados com o nome db_lista)
 
 
 
